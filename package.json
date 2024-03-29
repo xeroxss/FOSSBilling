@@ -5,9 +5,10 @@
   "license": "Apache License 2.0",
   "scripts": {
     "build": "npm run build-themes && npm run build-modules",
-    "build-themes": "npm run build-admin_default && npm run build -w huraga",
+    "build-themes": "npm run build-admin_default && npm run build -w huraga && npm run build -w pradyek",
     "build-modules": "npm run build-wysiwyg",
     "build-huraga": "npm run build -w huraga",
+    "build-pradyek":"npm run build -w pradyek",
     "build-admin_default": "npm run build -w admin_default",
     "build-wysiwyg": "npm run build -w wysiwyg",
     "cypress:open": "cypress open"
@@ -42,7 +43,8 @@
   "workspaces": [
     "src/themes/huraga",
     "src/themes/admin_default",
-    "src/modules/Wysiwyg"
+    "src/modules/Wysiwyg",
+    "src/themes/pradyek"
   ],
   "config": {
     "platform": {
