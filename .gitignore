@@ -16,7 +16,7 @@ DOCKER_ENV
 docker_tag
 src/themes/*/config/settings_data.json
 cache
-
+nbproject/
 ### Cypress ###
 tests/cypress/videos/*
 tests/cypress/screenshots/*
@@ -38,3 +38,4 @@ src/themes/*/config/settings_data.json
 docker-compose.yml
 .phpunit.cache/test-results
 .phpunit-live.cache/test-results
+/nbproject/private/
