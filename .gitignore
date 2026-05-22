@@ -8,7 +8,6 @@
 /src/data/cache/*
 !/src/data/cache/.gitkeep
 /src/vendor/*
-/src/nbroject/
 build
 
 # Needed for some workflows
@@ -29,3 +28,5 @@ src/install/php_error.log
 src/themes/huraga/config/settings_data.json
 output.log
 /src/nbproject/private/
+/nbproject/private/
+nbproject/
